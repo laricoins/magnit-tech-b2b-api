@@ -62,6 +62,7 @@ $orderResponse = $client->createOrder($order);
 
 
 📊 Основные методы
+```
 php
 // Заказы
 $client->createOrder($orderData);
@@ -82,6 +83,7 @@ $client->getPickupPoints($page, $size, $filters);
 $client->getCategories();
 $client->updatePrices($prices);
 $client->updateStocks($stocks);
+```
 🛠️ Требования
 PHP 7.4+
 
